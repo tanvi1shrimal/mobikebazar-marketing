@@ -1,0 +1,95 @@
+.accordion-default {
+	.panel {
+		background-color: $white;
+		border-radius: 0;
+		border: 0;
+		box-shadow: none;
+	}
+	.panel-title {
+		color: $accordionBlue;
+		font-family: $Raleway-SemiBold;
+		font-size: 12px;
+		line-height: 22px;
+		text-transform: uppercase;
+
+		@media(min-width: $sm) {
+			font-size: 14px;
+			line-height: 24px;
+		}
+
+		a {
+			display: block;
+			padding: 15px 15px 15px 0;
+			border-bottom: 0;
+			position: relative;
+			&:before {
+				content: '\78';
+				font-family: mobike-bazar;
+				position: absolute;
+				left: -35px;
+				top: 50%;
+				margin-top: -8px;
+				//font-family: "mobike-bazar" !important;
+				font-style: normal !important;
+				font-weight: normal !important;
+				font-variant: normal !important;
+				text-transform: none !important;
+				speak: none;
+				line-height: 1;
+				-webkit-font-smoothing: antialiased;
+				-moz-osx-font-smoothing: grayscale;
+				display: inline-block;
+			}
+			&.collapsed {
+				border-bottom: 1px solid $borderlightergray;
+				&:before {
+					content: '\76';
+				}
+			}
+		}
+	}
+	.panel-body {
+		padding: 0 15px 0 0;
+		p {
+			font-family: $OpenSans-Regular;
+			color: $black666;
+			font-size: 12px;
+			line-height: 18px;
+			margin-bottom: 15px;
+
+			@media(min-width: $sm) {
+				font-size: 14px;
+				line-height: 26px;
+			}
+		}
+		ul {
+			margin-bottom: 20px !important;
+			li {
+				font-family: $OpenSans-Regular;
+				color: $black666;
+				font-size: 12px;
+				line-height: 18px;
+				margin-left: 30px;
+			    list-style-type: disc;
+			    margin-bottom: 0;
+
+				@media(min-width: $sm) {
+					font-size: 14px;
+					line-height: 26px;
+				}
+			}
+		}
+	}
+	.panel-group .panel-heading+.panel-collapse>.panel-body {
+		border-top: 0;
+		border-bottom: 1px solid $borderlightergray;
+	}
+	.panel-default>.panel-heading {
+		background-color: $white;
+		padding-left: 0;
+		padding: 0;
+	}
+	.panel-group .panel+.panel {
+		margin-top: 0;
+	}
+}

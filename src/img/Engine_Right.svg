@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="-13 -1.7 429.3 563.7" style="enable-background:new -13 -1.7 429.3 563.7;" xml:space="preserve">
+<style type="text/css">
+	.st0{opacity:0.32;fill:none;stroke:#FFFFFF;stroke-width:0.75;stroke-miterlimit:10;enable-background:new    ;}
+	.st1{opacity:0.29;fill:none;stroke:#FFFFFF;stroke-width:0.75;stroke-miterlimit:10;enable-background:new    ;}
+	.st2{opacity:0.24;fill:none;stroke:#FFFFFF;stroke-width:0.75;stroke-miterlimit:10;enable-background:new    ;}
+
+	.circle-animation {
+	animation: zig 3s infinite linear;
+	transform-origin: center;
+
+}
+
+@keyframes zig {
+	0%{
+		-moz-transform: rotate(0deg);
+		-webkit-transform: rotate(0deg);
+		-o-transform: rotate(0deg);
+		-ms-transform: rotate(0deg);
+		transform: rotate(0deg);
+		
+	}
+	100%{
+		-moz-transform: rotate(360deg);
+		-webkit-transform: rotate(360deg);
+		-o-transform: rotate(360deg);
+		-ms-transform: rotate(360deg);
+		transform-origin: center;
+	}
+}
+
+
+@keyframes shaft {
+	0%, 100%{
+		-moz-transform: rotate(-10deg);
+		-webkit-transform: rotate(-10deg);
+		-o-transform: rotate(-10deg);
+		-ms-transform: rotate(-10deg);
+		transform: rotate(-10deg);
+		
+	}
+	50%{
+		-moz-transform: rotate(10deg);
+		-webkit-transform: rotate(10deg);
+		-o-transform: rotate(10deg);
+		-ms-transform: rotate(10deg);
+		transform-origin: bottom center;
+	}
+}
+.shaft-anim{
+	animation: shaft 2s ease infinite;
+}
+.dashed-array {
+	
+	animation-duration: 9s; 
+}
+.dashed-array--1 {
+	stroke-dasharray: 1;
+}
+.dashed-array--2 {
+	stroke-dasharray: 2;
+}
+.dashed-array--3 {
+	stroke-dasharray: 3;
+}
+
+.trans-left-right {
+	animation: right-left 3s infinite;
+}
+@keyframes right-left {
+	0%, 100%{
+		-moz-transform: translateY(0);
+		-webkit-transform: translateY(0);
+		-o-transform: translateY(0);
+		-ms-transform: translateY(0);
+		transform: translateY(0);
+		
+	}
+	50%{
+		-moz-transform: translateY(-3px)
+		-webkit-transform: translateY(-3px)
+		-o-transform: translateY(-3px)
+		-ms-transform: translateY(-3px)
+		//transform-origin: bottom center;
+	}
+}
+</style>
+<g>
+	<path data-ignore="true" id="XMLID_1084_" class="st0" d="M315.9,183.2c0,0-53.7-35.9-62.2-38"/>
+	<path data-ignore="true" id="XMLID_1085_" class="st0" d="M235.4,141.1l7.7-11.4c0.5-0.9,1.7-1.2,2.7-0.6l10.2,5.7c1,0.5,1.3,1.8,0.8,2.8l-4.3,7.3"/>
+	<polyline data-ignore="true" id="XMLID_1082_" class="st0" points="225.1,149.1 318.1,189.5 312.9,198.2 217,155.6 "/>
+	<path data-ignore="true" id="XMLID_1089_" class="st0" d="M312.9,198.2l-1.7,2v2.3v1.6l-4.5,8.2l-0.5,0.2c-3.1,0.9-5.5,3.5-6.2,6.8l-1.3,5.5l-3.2-3.5
+		l0,0c-5.2,1.3-9.6,4.5-12.4,9l-0.8,1.3c0,0,12.9,7.2,10.1,29.5c-0.2,1.6-0.5,3.1-1.1,4.6l-29,81.9c-1.3,3.8-3.3,7.5-5.7,10.7
+		c-7.8,10.3-26.9,29.5-60.3,27.7l-194-11.3"/>
+	<path data-ignore="true" id="XMLID_1088_" class="st0" d="M311.1,201c-0.6,0-75-30.8-75-30.8"/>
+	<circle data-ignore="true" id="XMLID_1087_" class="st0" cx="230.9" cy="171" r="5.3"/>
+	<line  id="XMLID_1091_" class="st0" d="M298.7,224.7c0,0,18.7,18.7,5.9,54.4c-11.1,31-25.3,70.5-28.9,80.4c-0.7,2-1.6,3.9-2.6,5.7
+		c-6,10.5-27.2,42-67.9,42.2L-11,390.9"/>
+	<path id="XMLID_1086_" class="st0" d="M22.8,372.1c0,0-13.4,2-10.4,11.9c3.1,10-13.9,16.3-13.9,16.3"/>
+	<path id="XMLID_1093_" class="st0" d="M286.6,225.9c0,0,14.2,11.2,8.6,39.7c-5.2,26.2-30.4,85.5-34.4,94.9c-0.5,1.1-1,2.1-1.6,3.1
+		c-4.5,7-23.3,31.4-66.8,27.9L12,379.7"/>
+	<path  id="XMLID_1092_" class="st0" d="M291.2,222.7c0,0,18.5,18.9,12.1,42.4c-6.4,23.5-34.5,94.6-34.5,94.6s-14.3,40.5-59.6,40.5
+		c-44,0-196.5-14.1-196.5-14.1"/>
+
+	<path  id="XMLID_1116_" class="st0" d="M142.7,165.9h6.3c0,0,8.5,5.7,7.8,27.8c0.1,1.5-1.8,14.1-9.2,19.7l-4.3-2.2"/>
+	<path data-ignore="true" id="XMLID_667_" class="st0" d="M147.4,165.8v-4H142v-8.2h3.4l8.9-10.1h33.8l5.9,5.1v5.3h2.6v5.3h-2v5.8h2.9v5.1h2.2v2.1
+		l7.2-0.2v-7.6l4.9-2.3l5.7-7.1l4.6-6h3.1l3.3-4.2l4.2-4.2c0,0,49.6,6.4,81.6,35.4l1.6,7.1l2.2,3.1v3.2c0,0-65.7-38.6-90.2-43.8"/>
+	<line data-ignore="true" id="XMLID_1031_" class="st0" x1="149.6" y1="149" x2="193.9" y2="148.7"/>
+	<line data-ignore="true" id="XMLID_1032_" class="st0" x1="155.4" y1="143.5" x2="155.4" y2="149.1"/>
+	<line data-ignore="true" id="XMLID_1033_" class="st0" x1="156.8" y1="143.5" x2="156.8" y2="149.1"/>
+	<line data-ignore="true" id="XMLID_1034_" class="st0" x1="159.8" y1="143.5" x2="159.8" y2="149.1"/>
+	<line data-ignore="true" id="XMLID_1035_" class="st0" x1="161.9" y1="143.5" x2="161.9" y2="149.1"/>
+	<line data-ignore="true" id="XMLID_1036_" class="st0" x1="174.3" y1="143.5" x2="174.3" y2="149.1"/>
+	<line data-ignore="true" id="XMLID_1037_" class="st0" x1="181.8" y1="143.5" x2="181.8" y2="149.1"/>
+	<polyline data-ignore="true" id="XMLID_1030_" class="st0" points="149.6,158.3 190.9,158.3 190.9,154.3 "/>
+	<line data-ignore="true" id="XMLID_1039_" class="st0" x1="164.6" y1="149.1" x2="164.6" y2="158.5"/>
+	<polyline data-ignore="true" id="XMLID_1038_" class="st0" points="167.2,158.3 167.2,172.3 169.8,172.3 "/>
+	<path data-ignore="true" id="XMLID_1040_" class="st0" d="M173.8,170.3c-1.1-0.1-4,0-4,0v24.3"/>
+	<path data-ignore="true" id="XMLID_1041_" class="st0" d="M150.3,167.3h4c0,0,3.9,1.6,5.4,7.2"/>
+	<path data-ignore="true" id="XMLID_1043_" class="st0" d="M157.5,169.5h4.4l1.7,2.2c0.2,0.3,0.4,0.6,0.4,1l0,0c0,0.9-0.7,1.6-1.6,1.6h-1.6"/>
+	<path data-ignore="true" id="XMLID_1044_" class="st0" d="M147.5,213.8v4.2h5.6v3.3h7v2.4H180V220h8.4v-4.5h-2v-6.6h2h1.8v-5.1h7.7v2.4h3.8v1.6h-3.1
+		v3.2h3.1v1.6h-3.2v2h3.2v2.5h-3v3.2h3v3.2h-2.8v2.5h3.2v3.5H199v2.5h3.1v2.7h-3.1v2.5h2.7v3.4h-3.1v3.2h3.1v3.5h-3.1v2.3
+		c0,3.5-1.6,6.9-4.3,9.2c-9,7.5-30.3,23.4-45.1,23.1"/>
+	<path data-ignore="true" id="XMLID_1046_" class="st0" d="M149.3,282.2c0,0-5.4,0.4-7.8-6.9c-2.3-7.3-5-11.4-9.3-13v-6.1h-16.9v-3.1H98.9v-3.2H81.7v4.6
+		c0,0-32.1,25.8-40,44.9c-0.6,1.5-2,2.4-3.6,2.4h-4.2c-1.4,0-2.7,0.8-3.5,2l0,0c-1.8,3.1-5,4.9-8.6,4.9h-2.8c-1.9,0-3.4,1.5-3.4,3.4
+		v25.7c0,2,1.6,3.7,3.7,3.7h35.1"/>
+	<path data-ignore="true" id="XMLID_1047_" class="st0" d="M40.8,342.7c0,0,8.4,15.3,26.8,20.6v15.2"/>
+	<circle  id="XMLID_1045_" class="st0 circle-animation" cx="82.9" cy="328.2" r="6.4"/>
+	<circle data-ignore="true" id="XMLID_1048_" class="st0 circle-animation" cx="82.9" cy="328.2" r="8.6"/>
+	<polygon id="XMLID_1049_" class="st0 circle-animation" points="71.7,321.2 71.7,333.9 82.9,342 94.4,334.7 94.4,322.3 83.6,314.5 "/>
+	<path data-ignore="true" id="XMLID_1050_" class="st0 circle-animation" d="M77,308.8h10.5l15.2,13v7.7c0,0-14.1,18.8-14.5,18.8c-0.3-0.1-9.7,0-9.7,0l-14.8-12.6
+		l-0.5-9.1L77,308.8z"/>
+	<path data-ignore="true" id="XMLID_1051_" class="st0" d="M190.3,283.9c-1.3-1.6-3.5-2.4-5.6-1.6c-13,4.3-55.8,19.6-43.9,26.5
+		c13.9,8.2,39.7,29.2,41.9,42c2.2,12.8,21.5,7.8,34.3,1.3c12.8-6.5,32.8-36.2,28.2-51.2c-2.8-2.8-33.9-22.5-40.1-19.7
+		C199.4,283.7,196.5,291.6,190.3,283.9z"/>
+	<circle data-ignore="true" id="XMLID_1052_" class="st0" cx="204.2" cy="319.8" r="21.4"/>
+	<circle data-ignore="true" id="XMLID_1053_" class="st0" cx="238.6" cy="306.5" r="3.1"/>
+	<circle data-ignore="true" id="XMLID_1055_" class="st0" cx="204.2" cy="290" r="3.1"/>
+	<circle data-ignore="true" id="XMLID_1054_" class="st0" cx="204.2" cy="290" r="1.4"/>
+	<circle data-ignore="true" id="XMLID_1163_" class="st0" cx="181.8" cy="290" r="1.4"/>
+	<circle data-ignore="true" id="XMLID_1168_" class="st0" cx="157.5" cy="284.6" r="1.4"/>
+	<circle data-ignore="true" id="XMLID_1169_" class="st0" cx="168.7" cy="280.5" r="1.4"/>
+	<circle data-ignore="true" id="XMLID_1164_" class="st0" cx="223.3" cy="340.1" r="1.4"/>
+	<circle data-ignore="true" id="XMLID_1057_" class="st0" cx="238.6" cy="306.5" r="1.4"/>
+	<circle data-ignore="true" id="XMLID_1059_" class="st0" cx="195.4" cy="349.7" r="3.1"/>
+	<circle data-ignore="true" id="XMLID_1058_" class="st0" cx="195.4" cy="349.7" r="1.4"/>
+	<circle data-ignore="true" id="XMLID_1061_" class="st0" cx="149" cy="305.1" r="3.1"/>
+	<circle data-ignore="true" id="XMLID_1060_" class="st0" cx="149" cy="305.1" r="1.4"/>
+	<path data-ignore="true" id="XMLID_1056_" class="st0" d="M141.6,275.3c0,0-2.4,5.3,1.1,11.7c3.5,6.4,4.9,10.8,4.9,10.8"/>
+	<line data-ignore="true" id="XMLID_1063_" class="st0" x1="179.9" y1="269.6" x2="184.8" y2="282.3"/>
+	<circle data-ignore="true" id="XMLID_1062_" class="st0" cx="195.4" cy="280" r="2.8"/>
+	<circle data-ignore="true" id="XMLID_1064_" class="st0" cx="195.4" cy="280" r="5.6"/>
+	<path data-ignore="true" id="XMLID_1065_" class="st0" d="M153.1,218v-7.4h4.9h1.5v-12.7h5.5l1.1-4.2c1.1-14.1-3.2-17.5-3.2-17.5"/>
+	<line data-ignore="true" id="XMLID_1066_" class="st0" x1="159.6" y1="205" x2="189.8" y2="205"/>
+	<line data-ignore="true" id="XMLID_1067_" class="st0" x1="159.7" y1="207.6" x2="189.8" y2="207.6"/>
+	<polyline data-ignore="true" id="XMLID_1083_" class="st0" points="170.3,207.6 170.3,220.8 162.5,220.8 162.5,213.2 164.6,213.2 164.6,207.6 "/>
+	<polyline data-ignore="true" id="XMLID_1042_" class="st0" points="180.7,208 180.7,216.8 175.6,216.8 175.6,220.8 170.3,220.8 "/>
+	<polyline data-ignore="true" id="XMLID_1099_" class="st0" points="169.8,184.9 174.3,184.9 174.3,199.9 "/>
+	<path data-ignore="true" id="XMLID_1117_" class="st0" d="M182.9,178.7"/>
+	<polyline data-ignore="true" id="XMLID_1119_" class="st0" points="197.3,203.8 202.7,198.4 204.7,199.9 206.2,198.4 211.6,202.5 224.3,184.9 
+		210.8,177.4 206.3,177.4 204.8,176.2 204.8,172.3 "/>
+	<polyline data-ignore="true" id="XMLID_1120_" class="st0" points="220.8,157.2 217.9,162.7 222.5,165.1 218.4,171.8 218.7,175.7 227.5,182.4 
+		227.5,186.2 212.2,207.3 205.9,202.9 202.8,205.4 "/>
+	<polyline data-ignore="true" id="XMLID_1121_" class="st0" points="228.6,160.7 222.1,172.3 222.9,175.7 230.9,181.7 230.9,185.7 245.2,192.4 "/>
+	<polyline data-ignore="true" id="XMLID_1124_" class="st0" points="276.1,203.8 243.7,282.2 215.2,269.6 249.7,190 "/>
+	<polyline data-ignore="true" id="XMLID_1125_" class="st0" points="230.9,181.7 253.6,192.4 273.6,199.9 273.6,202.9 241.5,278.4 219.1,268.4 
+		251.4,192.4 "/>
+	<line data-ignore="true" id="XMLID_1123_" class="st0" x1="302.3" y1="214.8" x2="273.6" y2="202.9"/>
+	<line data-ignore="true" id="XMLID_1126_" class="st0" x1="300.2" y1="218" x2="276.1" y2="208"/>
+	<line data-ignore="true" id="XMLID_1128_" class="st0" x1="242.6" y1="196.1" x2="227.5" y2="188.8"/>
+	<line data-ignore="true" id="XMLID_1129_" class="st0" x1="240.8" y1="199.8" x2="225.7" y2="192.5"/>
+	<line data-ignore="true" id="XMLID_1132_" class="st0" x1="288.8" y1="223.9" x2="272.3" y2="216.7"/>
+	<line data-ignore="true" id="XMLID_1133_" class="st0" x1="284.2" y1="227.3" x2="270.2" y2="221.5"/>
+	<line data-ignore="true" id="XMLID_1130_" class="st0" x1="238.5" y1="203.5" x2="223.3" y2="196.1"/>
+	<line data-ignore="true" id="XMLID_1131_" class="st0" x1="236.8" y1="208.8" x2="219.1" y2="200.1"/>
+	<line data-ignore="true" id="XMLID_1134_" class="st0" x1="233.6" y1="213.6" x2="215.9" y2="204.7"/>
+	<line data-ignore="true" id="XMLID_1139_" class="st0" x1="230.6" y1="219.1" x2="205.9" y2="206.8"/>
+	<line data-ignore="true" id="XMLID_1140_" class="st0" x1="228" y1="224.1" x2="203.2" y2="211.8"/>
+	<line data-ignore="true" id="XMLID_1142_" class="st0" x1="227.6" y1="228.9" x2="202.7" y2="216.6"/>
+	<line data-ignore="true" id="XMLID_1144_" class="st0" x1="226.7" y1="233.5" x2="202" y2="221.1"/>
+	<line data-ignore="true" id="XMLID_1146_" class="st0" x1="224.3" y1="236.9" x2="202.7" y2="226.1"/>
+	<line data-ignore="true" id="XMLID_1151_" class="st0" x1="223.5" y1="241.5" x2="202" y2="230.7"/>
+	<line data-ignore="true" id="XMLID_1152_" class="st0" x1="220.3" y1="245.9" x2="201.7" y2="236.7"/>
+	<line data-ignore="true" id="XMLID_1154_" class="st0" x1="219.5" y1="251.3" x2="201" y2="242.1"/>
+	<line data-ignore="true" id="XMLID_1155_" class="st0" x1="217.4" y1="254.6" x2="201.6" y2="246.7"/>
+	<line data-ignore="true" id="XMLID_1153_" class="st0" x1="257.1" y1="264.9" x2="252.6" y2="262.7"/>
+	<line data-ignore="true" id="XMLID_1135_" class="st0" x1="282" y1="232.1" x2="268.7" y2="226.1"/>
+	<line data-ignore="true" id="XMLID_1136_" class="st0" x1="284.2" y1="238" x2="266.5" y2="230.1"/>
+	<line data-ignore="true" id="XMLID_1137_" class="st0" x1="282.6" y1="242.1" x2="264.7" y2="234.1"/>
+	<line data-ignore="true" id="XMLID_1138_" class="st0" x1="277.4" y1="244.6" x2="263" y2="238"/>
+	<line data-ignore="true" id="XMLID_1143_" class="st0" x1="275.9" y1="248.6" x2="261.4" y2="242.1"/>
+	<line data-ignore="true" id="XMLID_1145_" class="st0" x1="272.3" y1="251.3" x2="259.9" y2="245.4"/>
+	<line data-ignore="true" id="XMLID_1147_" class="st0" x1="268.7" y1="253.7" x2="258.7" y2="248.9"/>
+	
+	<line data-ignore="true" id="XMLID_1149_" class="st0" x1="263.6" y1="259" x2="256.1" y2="255.2"/>
+	<line data-ignore="true" id="XMLID_1150_" class="st0" x1="261" y1="261.9" x2="254.1" y2="258.5"/>
+	<line data-ignore="true" id="XMLID_1127_" class="st0" x1="298.3" y1="222.2" x2="274.1" y2="212.2"/>
+	<path data-ignore="true" id="XMLID_1141_" class="st0" d="M286.7,236.2l-6.1,10.3l-2.8-1.8l-1.6,1.7l1.6,0.8l-1.6,2.3l-2.4-1.3l-1.4,1.9l1.8,0.8
+		l-1.4,2.3l-2.4-0.4l-1.2,4.1h-3.5l-1.3,3.8l-2.3-0.5l-1.3,3.2l-2.4-0.3l-1,4l-2.6-0.4l-5.3,12.3c0,0,2.7,8.6-4.1,13.8l-9.7-4.5
+		l2.4-6.3l-17.6-7.1l-5.1,5.6l-7.9-3.7l3.5-7.6l37.2-80.3"/>
+	<polygon id="XMLID_1118_" class="st0" points="220.9,282.6 219.9,280.9 220.9,279.1 222.9,279.1 224,280.9 222.9,282.6 "/>
+	<polygon id="XMLID_1156_" class="st0" points="229.6,286.4 228.6,284.6 229.6,282.8 231.7,282.8 232.7,284.6 231.7,286.4 "/>
+	<polyline data-ignore="true" id="XMLID_1157_" class="st0" points="194.5,259 207.3,265.7 203.2,274.4 207.7,276.3 "/>
+	<path data-ignore="true" id="XMLID_1158_" class="st0" d="M247,291.4h15.9v13.7H247v15.2h1.6v26.3c0,0-14.1,18.8-11.6,29.3"/>
+	<polyline data-ignore="true" id="XMLID_1122_" class="st0" points="242.3,356.9 207.3,356.9 207.3,386 "/>
+	<polyline data-ignore="true" id="XMLID_1160_" class="st0" points="215.7,356.9 215.7,354.8 238.6,354.8 238.6,356.9 "/>
+	<path data-ignore="true" id="XMLID_1161_" class="st0" d="M238.6,354.8c-0.1-0.8,0-3.2,0-3.2h-17.8v3.2"/>
+	<polyline data-ignore="true" id="XMLID_1159_" class="st0" points="226.2,351.6 226.2,347.9 232.1,347.9 232.1,341.2 235.5,341.2 235.5,347.6 
+		236.8,347.6 236.8,349.7 237.9,349.7 237.9,347.5 241.5,347.5 241.5,357.3 "/>
+	<path data-ignore="true" id="XMLID_1162_" class="st0" d="M145.9,312c0,0,5.3,23.2,3.1,30c-2.3,6.8,21.8-0.5,34.3,10.8"/>
+	<line data-ignore="true" id="XMLID_1166_" class="st0" x1="144.1" y1="289.7" x2="156.3" y2="285.3"/>
+	<line data-ignore="true" id="XMLID_1167_" class="st0" x1="170.1" y1="280" x2="182.3" y2="275.6"/>
+	<line data-ignore="true" id="XMLID_1170_" class="st0" x1="164.6" y1="346" x2="164.6" y2="384.1"/>
+	<line data-ignore="true" id="XMLID_1171_" class="st0" x1="152.9" y1="346" x2="152.9" y2="384.1"/>
+	<circle data-ignore="true" id="XMLID_1165_" class="st0" cx="82.9" cy="328.2" r="25.2"/>
+	<circle data-ignore="true" id="XMLID_1172_" class="st0" cx="82.9" cy="328.2" r="28.4"/>
+	<circle data-ignore="true" id="XMLID_1173_" class="st0" cx="82.9" cy="328.2" r="31.5"/>
+	<polyline data-ignore="true" id="XMLID_1174_" class="st0" points="182.9,184.4 182.9,201 192.8,201 "/>
+	<ellipse id="XMLID_1175_" class="st0" cx="198.6" cy="186.8" rx="5.8" ry="9.3"/>
+	<ellipse id="XMLID_1176_" class="st0" cx="198.6" cy="186.8" rx="2.3" ry="3.6"/>
+	<polyline data-ignore="true" id="XMLID_1178_" class="st0" points="178.5,159.4 178.5,178.7 184.4,178.7 184.4,174.5 189.8,179.5 199.7,172.3 "/>
+	<path data-ignore="true" id="XMLID_1179_" class="st0" d="M208.9,180.8c0,0,2.4,11.1-2.7,17.7"/>
+	<polyline data-ignore="true" id="XMLID_1180_" class="st0" points="149.6,346 137.5,346 142.7,356.7 130.5,376 "/>
+	<rect id="XMLID_1177_" x="100.5" y="369" class="st0" width="30" height="7"/>
+	<polyline data-ignore="true" id="XMLID_1181_" class="st0" points="130.5,376 142.1,376 142.1,382.8 "/>
+	<circle data-ignore="true" id="XMLID_1182_" class="st0" cx="114.3" cy="359.6" r="1.9"/>
+	<circle data-ignore="true" id="XMLID_1183_" class="st0" cx="114.3" cy="359.6" r="4.9"/>
+	<!-- <circle data-ignore="true" id="XMLID_1202_" class="st0" cx="84.4" cy="373.9" r="1.9"/> -->
+	<!-- <circle data-ignore="true" id="XMLID_1201_" class="st0" cx="84.4" cy="373.9" r="4.9"/> -->
+	<circle data-ignore="true" id="XMLID_1204_" class="st0" cx="74.3" cy="366.5" r="1.9"/>
+	<circle data-ignore="true" id="XMLID_1203_" class="st0" cx="74.3" cy="366.5" r="4.9"/>
+	<circle data-ignore="true" id="XMLID_1186_" class="st0 circle-animation dashed-array dashed-array--2 " cx="127.1" cy="312" r="1.9"/>
+	<circle data-ignore="true" id="XMLID_1185_" class="st0 circle-animation dashed-array dashed-array--1" cx="127.1" cy="312" r="4.9"/>
+	<circle data-ignore="true" id="XMLID_1188_" class="st0 circle-animation dashed-array dashed-array--2" cx="84.9" cy="274.4" r="6"/>
+	<circle data-ignore="true" id="XMLID_1187_ " class="st0 circle-animation dashed-array dashed-array--3" cx="84.9" cy="274.4" r="8.1"/>
+	<circle data-ignore="true" id="XMLID_1189_" class="st0" cx="114.3" cy="276" r="18"/>
+	<polyline data-ignore="true" id="XMLID_1190_" class="st0" points="149,329.2 135.3,329.2 135.3,341.2 149,341.2 "/>
+	<polyline data-ignore="true" id="XMLID_1184_" class="st0" points="74.9,260.2 68.6,271.4 71.7,276.3 68.6,277.8 70.1,280.9 65.7,281.9 65.7,285.6 
+		59.5,291.4 62.1,295.7 59.5,297.7 63.2,303 "/>
+	<path data-ignore="true" id="XMLID_1191_" class="st0" d="M74.9,284.6c0.4-2.4,0-18.2,0-18.2l4.5-4.5h9.8l5.2,3.1v19.6l-3.5,4h-12L74.9,284.6z"/>
+	<circle id="XMLID_1192_" class="st0" cx="37.8" cy="321.9" r="9.9"/>
+	<line  id="XMLID_1194_" class="st0" x1="16.7" y1="321.9" x2="25.2" y2="321.9"/>
+	<line data-ignore="true" id="XMLID_1195_" class="st0" x1="47.8" y1="321.9" x2="50" y2="321.9"/>
+	<line data-ignore="true" id="XMLID_1196_" class="st0" x1="92.8" y1="298.4" x2="145.9" y2="298.4"/>
+	<line data-ignore="true" id="XMLID_1197_" class="st0" x1="98.6" y1="300.7" x2="143.4" y2="300.7"/>
+	<path data-ignore="true" id="XMLID_1198_" class="st0" d="M122.2,260.2v4.7l-4.7-1.1l-3.2,6.5l5.6,2.2v9.8l-10.4-3.2c0,0-2.7,6-2.7,6.5
+		c0,0.5,2.7,3,2.7,3l-0.9,4.5"/>
+	<path data-ignore="true" id="XMLID_1199_" class="st0 shaft-anim" d="M113.7,334.6l11.9,4.9c0.9,0.3,1.3,1.3,1.1,2.2l0,0c-0.2,1-1.3,1.6-2.4,1.3l-11.9-3.8"/>
+	<path data-ignore="true" id="XMLID_1200_" class="st0" d="M108.2,309.5l10.1-6.5c0.8-0.5,1.9-0.3,2.4,0.5l0,0c0.5,0.9,0.2,2-0.6,2.4l-1.8,0.9
+		c-1.1,0.5-1.6,1.9-1.3,3.1l0,0c0.4,1.2,1.6,1.8,2.7,1.6l1.3-0.2c0,0-2.2,4.2,4.2,7.1l-0.8,3.2l-10,5.2"/>
+	<g class="shaft-anim">
+		<circle data-ignore="true" id="XMLID_1202_" class="st0" cx="84.4" cy="373.9" r="1.9"/>
+		<polyline data-ignore="true" id="XMLID_1205_" class="st0" points="88.6,371.4 96.3,365 98.6,366.5 89.3,373.9 "/>
+		<circle data-ignore="true" id="XMLID_1201_" class="st0" cx="84.4" cy="373.9" r="4.9"/>
+	</g>
+		
+	<rect id="XMLID_1193_" x="132.4" y="289.7" class="st0 trans-left-right" width="7.7" height="3.4"/>
+	<line data-ignore="true" id="XMLID_1207_" class="st0" x1="134.4" y1="293.1" x2="134.4" y2="298.2"/>
+	<line data-ignore="true" id="XMLID_1208_" class="st0" x1="137.9" y1="293.1" x2="137.9" y2="298.2"/>
+	<line data-ignore="true" id="XMLID_1209_" class="st0" x1="82.9" y1="360.6" x2="82.9" y2="369.5"/>
+	<line data-ignore="true" id="XMLID_1210_" class="st0" x1="75.2" y1="371.4" x2="75.2" y2="378.9"/>
+	<line data-ignore="true" id="XMLID_1211_" class="st0" x1="72.6" y1="371.4" x2="72.6" y2="378.8"/>
+	<path data-ignore="true" id="XMLID_1212_" class="st0" d="M109,345.7c0.3,1.3,3.7,9.3,3.7,9.3"/>
+	<path data-ignore="true" id="XMLID_1213_" class="st0" d="M107.1,348.3c0.3,1.3,3.7,8.4,3.7,8.4"/>
+	<line data-ignore="true" id="XMLID_1215_" class="st1" x1="319.1" y1="189.5" x2="416.3" y2="189.5"/>
+	<line data-ignore="true" id="XMLID_1216_" class="st1" x1="312.9" y1="201" x2="410" y2="201"/>
+	<line data-ignore="true" id="XMLID_1229_" class="st1" x1="263.5" y1="291" x2="386.6" y2="291"/>
+	<line data-ignore="true" id="XMLID_1228_" class="st1" x1="263.6" y1="305.1" x2="376.7" y2="305.1"/>
+	<line data-ignore="true" id="XMLID_1219_" class="st1" x1="299" y1="225.9" x2="396.2" y2="225.9"/>
+	<line data-ignore="true" id="XMLID_1223_" class="st2" x1="55.7" y1="224.7" x2="199" y2="224.7"/>
+	<line data-ignore="true" id="XMLID_1220_" class="st1" x1="207.5" y1="407.4" x2="386.6" y2="407.4"/>
+	<path data-ignore="true" id="XMLID_1214_" class="st1" d="M386.6,192.1"/>
+	<line data-ignore="true" id="XMLID_1230_" class="st1" x1="366.4" y1="291.9" x2="366.4" y2="305.1"/>
+
+	<line data-ignore="true" id="XMLID_1221_" class="st1" x1="341.2" y1="229.1" x2="341.2" y2="405.4"/>
+	<polyline data-ignore="true" id="XMLID_1217_" class="st1" points="345.7,400.3 341.2,405.4 336.4,400.3 "/>
+	<polyline data-ignore="true" id="XMLID_1224_" class="st1" points="336.6,233.9 341.2,228.9 345.9,234.1 "/>
+
+	<polyline data-ignore="true" id="XMLID_1421_" class="st1" points="298.7,437.6 303.3,442.3 298.5,446.9 "/>
+
+
+
+
+	<line data-ignore="true" id="XMLID_1417_" class="st1" x1="304.6" y1="413" x2="304.6" y2="562"/>
+	<line data-ignore="true" id="XMLID_1418_" class="st1" x1="140.1" y1="412.6" x2="140.1" y2="561.6"/>
+
+</g>
+
+
+<g id='linedraw'>
+	<polyline id="XMLID_3_" class="st2" points="74.4,201.5 71.8,204.3 69,201.4 "/>
+	<polyline id="XMLID_4_" class="st2" points="69,177.2 71.7,174.3 74.4,177.3 "/>
+	<line id="XMLID_5_" class="st2" x1="71.7" y1="174.7" x2="71.7" y2="204.2"/>
+	<polyline id="XMLID_6_" class="st2" points="105.5,220.8 102.8,222.3 100.2,220.8 "/>
+	<polyline id="XMLID_7_" class="st2" points="100.2,208.7 102.8,207.3 105.5,208.7 "/>
+	<line id="XMLID_8_" class="st2" x1="102.8" y1="207.5" x2="102.8" y2="222.3"/>
+	<line id="XMLID_9_" class="st1" x1="37.3" y1="21.6" x2="37.3" y2="296.7"/>
+	<line id="XMLID_10_" class="st1" x1="201.9" y1="21.9" x2="201.9" y2="171"/>
+	<polyline id="XMLID_11_" class="st1" points="196,-0.5 200.5,4.1 195.8,8.7 "/>
+	<polyline id="XMLID_12_" class="st1" points="42.7,7.6 38,3 42.7,-1.7 "/>
+	<line id="XMLID_13_" class="st1" x1="200.4" y1="4.1" x2="38" y2="3"/>
+	<path id="XMLID_1098_" class="st0" d="M55.1,172.3h81.9c1.8,0,3.5,0.9,4.6,2.4c2.7,4.1,6.6,13.2,1.3,27.1c-0.8,2.1-2.8,3.5-5.1,3.5
+	H54.4"/>
+	<path id="XMLID_1115_" class="st0" d="M136.3,172.3c0,0,1.3-7.1,7.2-6.3c5.9,0.9,17.2,27.4,0.6,44.8c-2.3,2.3-6.8-5.4-6.8-5.4"/>
+	<line id="XMLID_1148_" class="st0" x1="267.6" y1="256.8" x2="257.6" y2="251.9"/>
+	<line id="XMLID_1225_" class="st2" x1="149" y1="227.1" x2="149" y2="278.4"/>
+	<polyline id="XMLID_1226_" class="st2" points="144.4,231.4 148.9,226.5 153.6,231.7 "/>
+	<polyline id="XMLID_1227_" class="st2" points="153.6,273.7 149,278.7 144.4,273.5 "/>
+	<polyline id="XMLID_1422_" class="st1" points="145.4,445.7 140.8,441.2 145.5,436.5 "/>
+	<line id="XMLID_1423_" class="st1" x1="303.1" y1="442.3" x2="140.8" y2="441.2"/>
+</g>
+
+</svg>

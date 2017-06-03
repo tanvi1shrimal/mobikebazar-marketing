@@ -1,0 +1,119 @@
+.navbar-default {
+	background-color: $white;
+	border:0;
+	border-bottom: 1px solid $border;
+	border-radius: 0;
+	margin-bottom: 0;
+	.navbar-brand {
+		padding: 18px 5px;
+		@media(min-width: $sm) {
+			padding: 17px 12px;	
+			height: 55px;
+			border-right: 1px solid $border;
+		}
+		@media(min-width: $lg) {
+			padding: 17px 30px;	
+		}
+		.logo__image {
+			@media(max-width: $xs-max) {
+				width: 104px;
+			}
+			@media(min-width: $sm) {
+				width: 114px;
+			}
+			@media(min-width: $md) {
+				width: 157px;
+			}
+		}
+	}
+	.navbar-nav>li>a {
+		font-family: $OpenSans-Semibold;
+		text-transform: uppercase;
+		@media(min-width: $sm) {
+			padding: 17px 10px;	
+			font-size: 12px;
+			color: $black333;
+		}
+		@media(min-width: $md) {
+			padding: 17px 18px;	
+		}
+		@media(min-width: $lg) {
+			padding: 17px 25px;	
+		}
+		&:hover {
+			color: $red;
+			background-color: transparent !important;
+		}
+	}
+	.navbar-nav>.active>a {
+		background-color: transparent;
+	}
+	.navbar-nav>li>a.active {
+		color: $red;
+	}
+	.nav-links {
+		@media(max-width: $xs-max) {
+			position: absolute;
+			top: 5px;
+			right: 5px;
+			margin-left: 25px;
+		}
+		@media(min-width: $sm) {
+			margin-left: 15px;
+		}
+		@media(min-width: $md) {
+			margin-left: 15px;
+		}
+		@media(min-width: $lg) {
+			margin-left: 25px;
+		}
+		li {
+			float: left;
+			@media(min-width: $sm) {
+				padding: 7px 0;
+			}
+			.button--link {
+				color: $black333;
+				&:hover {
+					color: $red;
+				}
+			}
+		}
+	}
+	.button--primary-red--border {
+		&:hover,&:focus {
+			color:$white;
+		}
+	}
+}
+
+@media(max-width: $xs-max) {
+	.nav>li {
+		border-bottom: 1px solid $bordertable;
+		&:last-child {
+			border-bottom: 0 ;
+		}
+	}
+	.navbar-nav>li>a {
+		font-size: 12px;
+		color: $black666;
+	}
+}
+.navbar-toggle {
+	padding: 10px;
+	float: left;
+	margin-left: 5px;
+	margin-right: 0;
+	border: 0;
+	border-radius: 0;
+}
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: $black666;
+}
+.navbar-toggle .icon-bar {
+	height: 3px;
+	width: 18px;
+}
+.navbar-toggle .icon-bar+.icon-bar {
+	margin-top: 3px;
+}

@@ -1,0 +1,324 @@
+//Media screen variables
+
+$xs-max: 767px;
+$sm: 768px;
+$md: 992px;
+$lg: 1200px;
+
+//font-variables
+$OpenSans-Bold: 'OpenSans-Bold',sans-serif;
+$OpenSans-Semibold: 'OpenSans-Semibold',sans-serif;
+$OpenSans-Regular: 'OpenSans-Regular',sans-serif;
+$OpenSans-Light: 'OpenSans-Light',sans-serif;
+$OpenSans-BoldItalic: 'OpenSans-BoldItalic',sans-serif;
+$OpenSans-ExtraBoldItalic: 'OpenSans-ExtraBoldItalic',sans-serif;
+
+
+$Raleway-Bold: 'Raleway-Bold',sans-serif;
+$Raleway-SemiBold: 'Raleway-SemiBold',sans-serif;
+$Raleway-Medium: 'Raleway-Medium',sans-serif;
+$Raleway-Regular: 'Raleway-Regular',sans-serif;
+$Raleway-Light: 'Raleway-Light',sans-serif;
+$Raleway-ExtraLight: 'Raleway-ExtraLight',sans-serif;
+$Raleway-BlackItalic: 'Raleway-BlackItalic',sans-serif;
+
+//Color Variables
+$red: #e51e23;
+$green: #07d241;
+$darkBlue: #042443;
+$lighterdarkBlue: #002c8c;
+$darkblueheading: #02006f;
+$darkbluesubheading: #00206b;
+
+$white: #ffffff;
+$whitec4c4c4: #c4c4c4;
+$whitef3f3f3: #f6f3f3;
+$whitefdfdfd: #fdfdfd;
+$black: #000000;
+$black333: #333333;
+$black555: #555555;
+$black666: #666666;
+$yellow: #ecfa08;
+$blue: #192669;
+$blueActive: #003d99;
+
+$accordionBlue: #00206b;
+
+
+//Social icon colors
+$fb-color: #417ab9;
+$twitter-color: #40b3de;
+$linkedin-color: #5878a0;
+
+
+$black999: #999999;
+$lightGrey: #f6f6f6;
+$lightf9f9f9: #f9f9f9;
+$border: #efefef;
+$borderf2f2f2: #f2f2f2;
+$borderlight: #dbd9d9;
+$borderlightergray: #cccccc;
+$borderDashed: #d1d1d1;
+$bordertable: #eeeeee;
+
+
+//Basic font-styles
+
+.clear {clear:both;}
+
+//HEADINGS
+.heading-lg {
+	font-family: $Raleway-Regular;
+	margin: 0px;
+
+	color: $black333;
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 34px;
+
+	@media(min-width:768px){
+		font-size: 22px;
+		line-height: 32px;
+	}
+
+	@media(min-width:992px){
+		font-size: 35px;
+		line-height: 45px;
+	}
+	&--white {
+		color: $white;
+	}
+}
+.heading-md {
+	font-family: $Raleway-Medium;
+	margin: 0px;
+	color: $black333;
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 30px;
+
+	@media(min-width:768px){
+		font-size: 16px;
+		line-height: 26px;
+	}
+
+	@media(min-width:992px){
+		font-size: 24px;
+		line-height: 34px;
+	}
+}
+.heading-sm {
+	font-family: $Raleway-Regular;
+	margin: 0px;
+	color: $black333;
+	font-size: 12px;
+	font-weight: 500;
+	@media(min-width:768px){
+		font-size: 14px;
+	}
+
+	@media(min-width:992px){
+		font-size: 16px;
+	}
+}
+
+//PARAGRAPHS
+.paragraph-lg {
+	font-family: $OpenSans-Regular;
+	margin: 0px;
+	color: $black666;
+	font-size: 15px;
+	line-height: 30px;
+
+	@media(min-width:768px){
+		font-size: 18px;
+		line-height: 30px;
+	}
+
+	@media(min-width:992px){
+		font-size: 20px;
+		line-height: 40px;
+	}
+}
+.paragraph-md {
+	font-family: $OpenSans-Regular;
+	margin: 0px;
+	color: $black555;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 26px;
+	
+	@media(min-width:768px){
+		font-size: 12px;
+		line-height: 28px;
+	}
+
+	@media(min-width:992px){
+		font-size: 16px;
+		line-height: 32px;
+	}
+	&--white {
+		color: $white;
+	}
+}
+.paragraph-sm {
+	font-family: $OpenSans-Regular;
+	margin: 0px;
+
+	color: $black333;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 23px;
+
+	@media(min-width:768px){
+		font-size: 12px;
+		line-height: 22px;
+	}
+
+	@media(min-width:992px){
+		font-size: 14px;
+		line-height: 24px;
+	}
+}
+
+//BUTTONS
+.button {
+	font-family: $OpenSans-Semibold;
+	font-weight: 600;
+	display: inline-block;
+	text-transform: uppercase;
+	font-size: 12px;
+	line-height: 20px;
+	box-shadow: none !important;
+	cursor: pointer;
+	@media(min-width: $sm) {
+		font-size: 12px;	
+	}
+
+	&--sm {
+		padding: 10px;
+
+		@media(min-width: $md) {
+			padding: 10px 18px;
+		}
+	}
+
+	&--md {
+		padding: 8px 12px;
+		font-size: 12px;
+
+		@media(min-width: $lg) {
+			padding: 15px 20px;
+		    font-size: 16px;
+		    line-height: 22px;
+		}
+
+	}
+
+	&--lg {
+		padding: 8px 12px;
+		font-size: 12px;
+
+		@media(min-width: $lg) {
+			padding: 16px 20px;
+		    font-size: 20px;
+		    line-height: 26px;
+		}
+
+	}
+
+	&--primary-red {
+		background-color: $red;
+		border:2px solid $white;
+		color:$white;
+
+		&:hover,&:focus {
+			color:$red;
+		}
+		&::before {
+			background-color: $white;
+		}
+		&--border {
+			border:0;
+			&:hover,&:focus {
+				color:$red;
+			}
+			&::before {
+				background-color: $white;
+				border: 2px solid $red;
+			}
+		}
+	}
+	&--primary-white {
+		background-color: $white;
+		border:2px solid $red;
+		color: $red;
+
+		&:hover,&:focus {
+			color:$white;
+		}
+		&::before{
+			background-color: $red;
+		}
+	}
+	&--primary-blue {
+		background-color: transparent;
+		border: 1px solid $white;
+		color: $white;
+
+		&:hover,&:focus {
+			color:$darkBlue;
+		}
+		&::before {
+			background-color: $white;
+		}
+	}
+
+	&--link {
+		border-color: transparent;
+		color: $red;
+		text-decoration: none;
+		cursor: pointer;
+		&:hover,&:focus {
+			color: $red;
+			text-decoration: none;
+		}
+	}
+}
+
+
+//Remove default styles
+
+a,
+button{
+	&:hover,
+	&:active,
+	&:visited,
+	&:focus {
+		text-decoration: none;
+		outline: none;
+	}
+}
+input {
+	&:hover,
+	&:active,
+	&:visited,
+	&:focus {
+		text-decoration: none;
+		outline: none;
+	}
+}
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px #f6f3f3 inset;
+}
+
+//Section padding
+.section-padding {
+	padding: 40px 0px;
+	@media(min-width: $sm) {
+		padding: 40px 0px;
+	}
+	@media(min-width: $md) {
+		padding: 60px 0 50px;
+	}
+}

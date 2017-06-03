@@ -1,0 +1,145 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "mobike-bazar";
+  // src: url("../fonts/mb-icons/mobike-bazar.eot");
+  src: url("../fonts/mb-icons/mobike-bazar.eot?#iefix") format("embedded-opentype"), url("../fonts/mb-icons/mobike-bazar.woff") format("woff"), url("../fonts/mb-icons/mobike-bazar.ttf") format("truetype"), url("../fonts/mb-icons/mobike-bazar.svg#mobike-bazar") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+[data-icon]:before {
+  font-family: "mobike-bazar" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+[class^="mb-icon-"],[class*=" mb-icon-"] {
+  display: inline-block;
+  font-family: "mobike-bazar";
+}
+[class^="mb-icon-"]:before, [class*=" mb-icon-"]:before {
+  font-family: "mobike-bazar" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+}
+
+.mb-icon-menu:before {
+  content: "\6b";
+}
+
+.mb-icon-rating-star:before {
+  content: "\74";
+}
+
+.mb-icon-user:before {
+  content: "\75";
+}
+
+.mb-icon-plus:before {
+  content: "\76";
+}
+
+.mb-icon-minus:before {
+  content: "\78";
+}
+
+.mb-icon-arrow-left:before {
+  content: "\61";
+}
+
+.mb-icon-arrow-up:before {
+  content: "\62";
+}
+
+.mb-icon-cart:before {
+  content: "\63";
+}
+
+.mb-icon-close:before {
+  content: "\64";
+}
+
+.mb-icon-delete:before {
+  content: "\65";
+}
+
+.mb-icon-dropdown:before {
+  content: "\66";
+}
+
+.mb-icon-facebook:before {
+  content: "\67";
+}
+
+.mb-icon-gaurantee:before {
+  content: "\68";
+}
+
+.mb-icon-help:before {
+  content: "\69";
+}
+
+.mb-icon-add-address:before {
+  content: "\6a";
+}
+
+.mb-icon-arrow-right:before {
+  content: "\6c";
+}
+
+.mb-icon-upload-photo:before {
+  content: "\6d";
+}
+
+.mb-icon-upload-excel:before {
+  content: "\6e";
+}
+
+.mb-icon-twitter:before {
+  content: "\6f";
+}
+
+.mb-icon-secure-payment:before {
+  content: "\70";
+}
+
+.mb-icon-search:before {
+  content: "\71";
+}
+
+.mb-icon-pencil:before {
+  content: "\72";
+}
+
+.mb-icon-right:before {
+  content: "\73";
+}
+
+.mb-icon-linkedin:before {
+  content: "\77";
+}
+.mb-icon-rocket:before {
+  content: "\79";
+}
+
+.mb-icon-left-arrow:before {
+  content: "\7a";
+}
+.mb-icon-menu:before {
+  content: "\6b";
+}

@@ -1,0 +1,99 @@
+.tnc-menu {
+	list-style-type: decimal;
+	list-style-position: inside;
+	padding-top: 30px;
+	&__item {
+		text-transform: uppercase;
+		font-family: $Raleway-SemiBold;
+		color: $darkbluesubheading;
+		font-size: 12px;
+		@media(min-width: $sm) {
+			font-size: 13px;
+		}
+		@media(min-width: $md) {
+			font-size: 14px;
+			
+		}
+	}
+
+	b {
+		font-family: $OpenSans-Bold;
+	}
+}
+
+.menu-list-lower-latin {
+	list-style-position: inside;
+	list-style-type: lower-latin;
+    padding: 15px 0 0 15px;
+
+    &__item {
+    	font-size: 12px;
+    	line-height: 24px;
+    	color: $black666;
+    	font-family: $OpenSans-Regular;
+    	text-transform: initial;
+    	padding-bottom: 10px;
+
+    	@media(min-width: $sm) {
+    		font-size: 13px;
+    		line-height: 25px;
+    		padding-bottom: 15px;
+    	}
+    	@media(min-width: $md) {
+			font-size: 14px;
+			line-height: 28px;
+			padding-bottom: 20px;
+		}
+    }
+}
+
+.menu-list-roman {
+	list-style-position: inside;
+	list-style-type: lower-roman;
+
+	padding-left: 25px;
+
+	@media(min-width: $sm){
+		padding-left: 35px;
+	}
+	@media(min-width: $md){
+		padding-left: 45px;
+	}
+	
+
+	&__item {
+		padding-top: 10px ;
+
+		@media(min-width: $sm) {
+			padding-top: 15px ;
+		}
+		@media(min-width: $md) {
+			padding-top: 20px ;
+		}
+	}
+}
+
+.menu-list-noitem {
+	padding-top: 15px;
+	font-size: 12px;
+	line-height: 24px;
+	color: $black666;
+	font-family: $OpenSans-Regular;
+	text-transform: initial;
+	padding-bottom: 10px;
+
+	@media(min-width: $sm) {
+		font-size: 13px;
+		line-height: 25px;
+		padding-bottom: 15px;
+	}
+	@media(min-width: $md) {
+		font-size: 14px;
+		line-height: 28px;
+		padding-bottom: 20px;
+	}
+
+	&--uppercase {
+		text-transform: uppercase;
+	}
+}

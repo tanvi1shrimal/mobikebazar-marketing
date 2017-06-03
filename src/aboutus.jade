@@ -1,0 +1,193 @@
+doctype html
+head
+	meta(charset="UTF-8")
+	meta(name="viewport", content="width=device-width, initial-scale=1")
+	meta(http-equiv="x-ua-compatible" content="IE=10")
+	title MobikeBazar - About Us
+	link(rel="stylesheet", href="css/main.css")
+	link(rel="shortcut icon", href="img/favicon.ico")
+	script(src='js/plugins/modernizr.js')
+
+body.no-overflow
+	header.navbar.navbar-default
+		.container-fluid
+			.navbar-header
+				button.navbar-toggle.collapsed(type='button', data-toggle='collapse', data-target='#navigation-collapse', aria-expanded='false')
+					span.sr-only Toggle navigation
+					span.icon-bar
+					span.icon-bar
+					span.icon-bar
+				a.navbar-brand(href='index.html')
+					img.logo__image(src="img/Logo.svg", alt="mobike bazar logo")
+			ul.nav-links.pull-right
+				li
+					a.button.button--link.button--sm(data-toggle="modal" data-target="#userLogin") Login
+				li
+					a.button.button--primary-red.button--primary-red--border.button--sm(href="http://projects.lollypop.biz/mobikebazar/signup.html") Register
+			#navigation-collapse.collapse.navbar-collapse
+				ul.nav.navbar-nav.navbar-right
+					li
+						a(href='javascript:void(0);') HOME
+					li
+						a(href='javascript:void(0);') BENEFITS
+					li
+						a(href='javascript:void(0);') HOW TO SELL
+					li
+						a(href='javascript:void(0);') PRICING
+					li
+						a(href="faq.html") FAQ
+					
+	//START: Main
+	main
+		//START: Banner
+		section.banner
+			.container
+				.row
+					h1.text-center.banner__heading About mobikebazar.com
+					.engine
+						object(type="image/svg+xml" data="img/Engine_left.svg").engine__left#engine__left
+						object(type="image/svg+xml" data="img/Engine_Right.svg").engine__right#engine__right
+
+		//START: Content
+		section.content
+			.container
+				.row
+					.col-sm-10.col-sm-push-1.col-md-8.col-md-push-2
+						.static-container
+							.container__bottom
+								p Mobikebazar.com is the one stop shop for all your spare parts and accessories needs as long as they have anything to do with two­wheelers. In order to serve our clients, we rely on our decades of experience and now, our hard work and dedication has made us the best in the business. When it comes to hosting a large number of spare part sellers who intend to offer the widest variety of spare parts and accessories, there isno one as good as us in the market who operates across India. You can register for free with us and start selling your products through our round the clock sales channel..
+
+								p Our website always has traffic in abundance, therefore, sellers are always certain that they can reach a large number of people across India. What separates us from our competitors is the fact that we serve all our clients irrespective of their financial health to the best of our ability. Our clients are free to sell as many spare parts and accessories as they wish to through us. So, if you want to serve morte than a billion people across India with your two­wheeler spare parts and accessories, you should instantly opt for mobikebazar.com
+
+	//START: Footer
+	footer.section-padding
+		.container
+			.row
+				.col-xs-12.mobile-footer
+					a(href='javascript:void(0);').mobile-footer__link
+						img(src='img/Logo.svg' alt='Mobike Bazaar')
+					a(href='javascript:void(0);').mobile-footer__link terms &amp; conditions
+
+				.col-sm-12.col-md-10.col-md-offset-1.hidden-xs
+					.col-sm-3.footer__bloc
+						h4.footer__header.heading-sm information
+						ul.footer-list
+							li.footer-list__item
+								a(href='aboutus.html').footer-list__link about us
+							li.footer-list__item
+								a(href='javascript:void(0);').footer-list__link delivery information
+							li.footer-list__item
+								a(href='privacy-policy.html').footer-list__link privacy policy
+							li.footer-list__item
+								a(href='terms-conditions.html').footer-list__link terms &amp; conditions
+							li.footer-list__item
+								a(href='javascript:void(0);').footer-list__link site map
+
+					.col-sm-3.footer__bloc
+						h4.footer__header.heading-sm my account
+						ul.footer-list
+							li.footer-list__item
+								a(href='javascript:void(0);').footer-list__link my account
+							li.footer-list__item
+								a(href='javascript:void(0);').footer-list__link order history
+							li.footer-list__item
+								a(href='javascript:void(0);').footer-list__link wish list
+							li.footer-list__item
+								a(href='javascript:void(0);').footer-list__link newsletter
+							li.footer-list__item
+								a(href='javascript:void(0);').footer-list__link email a friend
+
+					.col-sm-3.footer__bloc
+						h4.footer__header.heading-sm service &amp; support
+						ul.footer-list
+							li.footer-list__item
+								a(href='javascript:void(0);').footer-list__link brands
+							li.footer-list__item
+								a(href='javascript:void(0);').footer-list__link get vouchers
+							li.footer-list__item
+								a(href='javascript:void(0);').footer-list__link affiliates
+							li.footer-list__item
+								a(href='javascript:void(0);').footer-list__link get a quote
+
+					.col-sm-3.footer__bloc
+						h4.footer__header.heading-sm connect with us
+						ul.footer-list
+							li.footer-list__item
+								a(href='tel:+91 9414111060').footer-list__link +91 9414111060
+							li.footer-list__item
+								a(href='mailto:sellers@mobikebazar.com').footer-list__link sellers@mobikebazar.com
+						ul.social
+							li.social__item
+								a(href='javascript:void(0);').social__link.social__link--facebook
+									i.mb-icon-facebook.social__icon
+							li.social__item
+								a(href='javascript:void(0);').social__link.social__link--twitter
+									i.mb-icon-twitter.social__icon
+							li.social__item
+								a(href='javascript:void(0);').social__link.social__link--linkedin
+									i.mb-icon-linkedin.social__icon
+	//START: Login Modal- User
+	#userLogin.modal.fade.modal--fullxs.modal--loginSignup(tabindex='-1', role='dialog')
+		.modal-dialog(role='document')
+			.modal-content
+				.login-recovery-wrapper
+					.login-wrapper
+						.modal-header
+							button.close(type='button', data-dismiss='modal', aria-label='Close')
+								span(aria-hidden='true') ×
+							h4.modal-title Login with MobikeBazar 
+						.modal-body
+							form.login-form(data-toggle="validator" role="form")
+								.row
+									.col-sm-12
+										.form-group
+											span.input.input--hoshi
+												input#email-field.input__field.input__field--hoshi(type='text' data-error="Please enter email address" required)
+												label.input__label.input__label--hoshi.input__label--hoshi-color-1(for='email-field')
+													span.input__label-content.input__label-content--hoshi Email 
+											.help-block.with-errors
+									.col-sm-12
+										.form-group
+											span.input.input--hoshi
+												input#password-field.input__field.input__field--hoshi(type='password' data-error="Please enter password" required)
+												label.input__label.input__label--hoshi.input__label--hoshi-color-1(for='password-field')
+													span.input__label-content.input__label-content--hoshi Choose Password
+											.help-block.with-errors
+
+									.col-sm-12.form-button
+										button.button.button--primary-white.button--lg.btn-block LOGIN
+									.col-sm-12.form-button
+										.form-group.clearfix
+											.form-bottom-link 
+												a.button.button--link.recover-pw-link(href='#')  Recover Password
+											.form-bottom-link New to mobike bazar? 
+												a.button.button--link(href="http://projects.lollypop.biz/mobikebazar/signup.html")  Sign Up !
+					.recover-pw-wrapper
+						.modal-header
+							h4.modal-title Recover Password 
+							p.modal-subtitle We will send you a recovery mail. Please enter your email ID
+						.modal-body
+							form.login-form(data-toggle="validator" role="form")
+								.row
+									.col-sm-12
+										.form-group
+											span.input.input--hoshi
+												input#email-field.input__field.input__field--hoshi(type='text' data-error="Please enter email address" required)
+												label.input__label.input__label--hoshi.input__label--hoshi-color-1(for='email-field')
+													span.input__label-content.input__label-content--hoshi Email
+											.help-block.with-errors
+								
+									.col-sm-12.form-button
+										button.button.button--primary-white.button--lg.btn-block recover password
+									.col-sm-12.form-button
+										.form-group.clearfix
+											.text-center
+												a.button.button--link.login-go-back(href='#')  LOGIN
+	//START: Plugin Scripts
+	script(src="js/plugins/jquery.js")
+	script(src="js/plugins/bootstrap.min.js")
+	script(src="js/plugins/vivus.min.js")
+
+	//START: Custom Scripts
+	script(src="js/vivus-init.js")
+	script(src="js/main.js")
